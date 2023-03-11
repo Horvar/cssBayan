@@ -68,6 +68,7 @@ html * {
 
 .memes__text {
   font-size: 1.2em;
+  color: #666;
 }
 
 .memes__list {
@@ -104,10 +105,12 @@ html * {
   background: orange;
 }
 .memes-legend__color--2 {
-  background: darkcyan;
+  background: #00c1c1;
 }
 
-.memes-legend__text {}
+.memes-legend__text {
+  color: #666;
+}
 
 /*item*/
 
@@ -123,7 +126,7 @@ html * {
 }
 
 .memes-item__wrapper {
-  border-bottom: .2em solid;
+  border-bottom: .2em solid #999;
 }
 
 .memes-item__input-check {
@@ -157,13 +160,15 @@ html * {
   border-color: orange;
 }
 .memes-item__input-check:checked ~ .memes-item__wrapper .memes-item__heading .memes-item__title {
-  color: darkcyan;
+  color: #00c1c1;
 }
 .memes-item__input-check:checked ~ .memes-item__wrapper {
-  border-color: darkcyan;
+  border-color: #00c1c1;
 }
 .memes-item__input-check:checked ~ .memes-item__wrapper .memes-item__svg-icon {
-  color: darkcyan;
+  background: #00c1c1;
+  border-color: #00c1c1;
+  color: #fff;
   transform: none;
 }
 .memes-item__input-check:checked ~ .memes-item__wrapper .memes-item__svg-icon use:first-child {
@@ -208,7 +213,7 @@ html * {
 }
 
 .memes-item__image {
-  width: 20em;
+  flex: 1 1 calc(100% / 3);
   height: 20em;
 }
 .memes-item__image img {
