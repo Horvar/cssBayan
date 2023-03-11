@@ -43,6 +43,22 @@ html * {
   margin: 0 auto;
 }
 
+.memes__row {
+  display: flex;
+  gap: 4em;
+
+  margin-bottom: 4em;
+}
+
+.memes__col {
+  flex: 1 1 50%;
+}
+.memes__col--1 {}
+.memes__col--2 {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .memes__title {
   font-size: 4em;
   font-weight: bold;
@@ -51,14 +67,47 @@ html * {
 }
 
 .memes__text {
-  max-width: 50%;
-  margin-bottom: 4em;
+  font-size: 1.2em;
 }
 
 .memes__list {
   display: flex;
   flex-direction: column;
 }
+
+/*legend*/
+
+.memes__legend {}
+
+.memes-legend {
+  font-size: 1.2em;
+}
+
+.memes-legend__list {
+  display: flex;
+  flex-direction: column;
+  /*gap: 1em;*/
+}
+
+.memes-legend__item, .memes-legend__text {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+.memes-legend__color {
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+}
+.memes-legend__color--1 {
+  background: orange;
+}
+.memes-legend__color--2 {
+  background: darkcyan;
+}
+
+.memes-legend__text {}
 
 /*item*/
 
