@@ -137,7 +137,7 @@ html * {
   padding: 0;
   opacity: 0;
 }
-.memes-item__input-check:checked ~ .memes-item__wrapper .memes-item__content, .memes-item__label:hover .memes-item__content {
+.memes-item__input-check:checked ~ .memes-item__wrapper .memes-item__content, .memes-item__label:hover .memes-item__wrapper .memes-item__content {
   transition: .5s ease;
   opacity: 1;
   padding: 0 0 2em;
