@@ -317,6 +317,9 @@ html * {
   .memes-item__label:hover .memes-item__wrapper {
     border-color: var(--color-hovered);
   }
+  .memes__list:hover .memes-item__wrapper {
+    border-color: var(--color-gray-dark);
+  }
 
   .memes__text {
     max-width: 27em;
