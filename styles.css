@@ -306,6 +306,9 @@ html * {
   .memes-item__label:not(:hover) .memes-item__svg-icon {
     transition: transform .25s ease;
   }
+  .memes__list:hover .memes-item__wrapper {
+    border-color: var(--color-gray-dark);
+  }
   .memes-item__label:hover .memes-item__svg-icon {
     transition: transform .5s ease;
     transform: none;
@@ -316,9 +319,6 @@ html * {
   }
   .memes-item__label:hover .memes-item__wrapper {
     border-color: var(--color-hovered);
-  }
-  .memes__list:hover .memes-item__wrapper {
-    border-color: var(--color-gray-dark);
   }
 
   .memes__text {
