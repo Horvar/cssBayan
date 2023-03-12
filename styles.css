@@ -169,7 +169,7 @@ html * {
   color: var(--color-selected);
 }
 .memes-item__input-check:checked ~ .memes-item__wrapper {
-  border-color: var(--color-selected);
+  border-color: var(--color-selected)!important;
 }
 .memes-item__input-check:checked ~ .memes-item__wrapper .memes-item__svg-icon {
   background: var(--color-selected);
