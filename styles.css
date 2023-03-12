@@ -228,7 +228,6 @@ html * {
 }
 .memes-item__image img {
   width: 100%;
-  height: 100%;
   
   object-fit: cover;
 }
@@ -261,10 +260,11 @@ html * {
   }
   .memes-item__content {
     flex-direction: row;
+    justify-content: center;
     flex-wrap: wrap;
   }
   .memes-item__image {
-    flex: 1 1 calc(100% / 3 - 2em);
+    flex: 0 1 calc(100% / 3 - 2em);
   }
   .memes-item__input-check:checked ~ .memes-item__wrapper .memes-item__content {
     max-height: 19em;
