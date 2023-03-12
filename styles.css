@@ -142,6 +142,9 @@ html * {
   
   cursor: pointer;
 }
+.memes-item__label:not(:hover) .memes-item__svg-icon {
+  transform: rotate(-135deg);
+}
 
 .memes-item__wrapper {
   border-bottom: .2em solid var(--color-gray-light);
@@ -162,7 +165,6 @@ html * {
   padding: 0 0 2em;
   max-height: 120em;
 }
-
 .memes-item__input-check:checked ~ .memes-item__wrapper .memes-item__heading .memes-item__title {
   color: var(--color-selected);
 }
@@ -303,7 +305,6 @@ html * {
   }
   .memes-item__label:not(:hover) .memes-item__svg-icon {
     transition: transform .25s ease;
-    transform: rotate(-135deg);
   }
   .memes-item__label:hover .memes-item__svg-icon {
     transition: transform .5s ease;
